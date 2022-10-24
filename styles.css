@@ -1,0 +1,32 @@
+
+@import url(./paletacolors.css);;
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+li{
+    list-style: none;
+  
+}
+.navprincipal{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.navprincipal>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+   
+}
+.navprincipal>li>a:hover{
+    background-color:var(--rojo);
+    color:white;
+    border-bottom: 1px solid black;
+    transition-duration: .4s;
+}
